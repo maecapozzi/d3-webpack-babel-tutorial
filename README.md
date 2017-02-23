@@ -35,17 +35,17 @@ Yours should look similar, but with whatever information you have inputted, rath
 3. Then, copy the code below into your webpack.config.js file.
 
     ```const path = require('path'); 
-    module.exports = { 
-      entry: './src/index.js', 
-      output: {
-        path: path.resolve('dist'), 
-        filename: 'index_bundle.js' 
-      }, 
-      module: {
-        loaders: [
-          { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ }
-         ]
-     }  
+          module.exports = { 
+          entry: './src/index.js', 
+          output: {
+              path: path.resolve('dist'), 
+              filename: 'index_bundle.js' 
+          }, 
+          module: {
+              loaders: [
+                { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ }
+              ]
+          }  
     }```
 
 As you can see above, you’ve specified an entry and an output.
