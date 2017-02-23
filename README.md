@@ -14,7 +14,7 @@ Here we go!
 2. While inside of your directory, type npm init into your terminal.
 3. Follow the steps that appear on your screen. For the sake of this tutorial, it’s perfectly fine to use the defaults each time. Once you have done that, take a look at your package.json file. This is what mine looks like:
 
-`{
+```{
   "name": "d3-webpack-babel-tutorial", 
   "version": "1.0.0", 
   "description": "", 
@@ -24,6 +24,6 @@ Here we go!
   }, 
   "author": "", 
   "license": "ISC"
-}`
+}```
 
 
