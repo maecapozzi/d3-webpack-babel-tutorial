@@ -166,7 +166,7 @@ module.exports = {
 
 2. In your terminal, run `npm start`. Your app should start running. Check in your browser to make sure everything is working correctly.
 
-# Step 7: Install D3
+## Step 7: Install D3
 1. Run `npm install d3` in your terminal.
 2. Add an `svg` like this to your `index.html` file:
 
@@ -181,6 +181,19 @@ module.exports = {
 You should see three black squares appear in your browser. 
 
 3. In your `index.js` file, add an import statement to include D3 in the file: `import * as d3 from 'd3';`.
+4. To test to be sure that D3 is loaded correctly, try using it by changing the color of the three rectangles you see on your screen. You can copy and paste the code below into your `index.js` file.
+
+```
+import * as d3 from 'd3';
+
+const square = d3.selectAll("rect");
+square.style("fill", "orange");
+
+```
+
+If you’ve done it correctly, you should see the three little squares turn orange!
+
+If you’ve followed all of these steps, you should find that you now have Webpack, Babel, and D3 correctly installed and functional. Please post an issue if you run into any problems. 
 
 
 
