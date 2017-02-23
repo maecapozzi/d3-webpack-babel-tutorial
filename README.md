@@ -34,19 +34,22 @@ Yours should look similar, but with whatever information you have inputted, rath
 2. Create a webpack configuration file by typing touch webpack.config.js into your terminal.
 3. Then, copy the code below into your webpack.config.js file.
 
-    ```const path = require('path'); 
-          module.exports = { 
-          entry: './src/index.js', 
-          output: {
-              path: path.resolve('dist'), 
-              filename: 'index_bundle.js' 
-          }, 
-          module: {
-              loaders: [
-                { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ }
-              ]
-          }  
-    }```
+```
+const path = require('path'); 
+
+module.exports = { 
+  entry: './src/index.js', 
+  output: {
+    path: path.resolve('dist'), 
+    filename: 'index_bundle.js' 
+  }, 
+  module: {
+    loaders: [
+      { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ }
+     ]
+ }  
+} 
+```
 
 As you can see above, you’ve specified an entry and an output.
 * In this case, the input is an index.js file that lives inside of a src folder.
