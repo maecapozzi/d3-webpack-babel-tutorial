@@ -32,9 +32,9 @@ Yours should look similar, but with whatever information you have inputted, rath
 
 ## Step 2: Install Webpack
 
-1. Type npm install webpack webpack-dev-server into your terminal.
-2. Create a webpack configuration file by typing touch webpack.config.js into your terminal.
-3. Then, copy the code below into your webpack.config.js file.
+1. Type `npm install webpack webpack-dev-server` into your terminal.
+2. Create a webpack configuration file by typing `touch webpack.config.js` into your terminal.
+3. Then, copy the code below into your `webpack.config.js` file.
 
 ```
 const path = require('path'); 
