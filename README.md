@@ -11,7 +11,7 @@ Here we go!
 ## Step 1: Set up your package.json file.
 
 1. Create a new directory for this project.
-2. While inside of your directory, type npm init into your terminal.
+2. While inside of your directory, type `npm init` into your terminal.
 3. Follow the steps that appear on your screen. For the sake of this tutorial, it’s perfectly fine to use the defaults each time. Once you have done that, take a look at your package.json file. This is what mine looks like:
 
 ```
